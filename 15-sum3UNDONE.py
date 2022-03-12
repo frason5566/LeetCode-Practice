@@ -19,12 +19,28 @@ def T(nums):
 
 def TT(nums):
     if len(nums)<3: return []
-    res = []
+    
     nums.sort()
     print(nums)
-    def find(source,N,target):
+    def find(N,source,target,res,res_f):
         ress = []
+        if N == 2:
+            while l < r:
+                s = nums[l] + nums[r]
+                if s == target:
+                    res_f.append(res + [nums[l], nums[r]])
+                    while l < r and nums[l] == nums[l + 1]:
+                        l += 1
+                    while l < r and nums[r] == nums[r - 1]:
+                        r -= 1
+                    l += 1; r -= 1
+                elif s < target:
+                    l += 1
+                else:
+                    r -= 1
+                    
         
+
      
 
 def main():
