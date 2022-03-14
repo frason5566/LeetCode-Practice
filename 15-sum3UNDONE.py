@@ -18,30 +18,32 @@ def T(nums):
     return res
 
 def TT(nums):
+    res = []
     if len(nums)<3: return []
-    
-    nums.sort()
-    print(nums)
-    def find(N,source,target,res,res_f):
-        ress = []
-        if N == 2:
+    def find(a,layer,target):
+        l = 0
+        r = len(a)-1
+        if layer == 2:
+            List = []
             while l < r:
-                s = nums[l] + nums[r]
-                if s == target:
-                    res_f.append(res + [nums[l], nums[r]])
-                    while l < r and nums[l] == nums[l + 1]:
-                        l += 1
-                    while l < r and nums[r] == nums[r - 1]:
-                        r -= 1
-                    l += 1; r -= 1
-                elif s < target:
-                    l += 1
-                else:
+                if a[l] + a[r] == target:
+                    List.append(a[l])
+                    List.append(a[r])
+                elif a[l] + a[r] > target:
                     r -= 1
+                elif a[l] + a[r] < target:
+                    l +=1
+            return List
+        else:
+            find(a[1:],layer-1,target - a[0])
+
+    for i in range(len(nums)):
+        find(nums, 3, 0 - nums[i])
+
                     
         
 
-     
+     return res
 
 def main():
     S = [-1,0,1,2,-1,-4]
