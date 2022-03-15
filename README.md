@@ -1,17 +1,25 @@
-# LeetCodeTest
+# LeetCodeTest #
 
+
+This is my practice for leetcode in python. <br/>
+And the markdown practice for recording when I finish the questions. <br/>
+Branches are separating the problems from <a href="https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions">Blind 75</a> and others that I pracice by myself.<br/>
+<br>
+
+---
+## Blind 75 Leetcode Problems<br/>
 <table>
     <tr >
-        <td width = 25>#</td><td width=300>Array</td> <td>Done</td> <td>Date</td>
+        <td width = 40>#</td><td width=300>Array</td> <td>Done</td> <td>Date</td>
     </tr>
     <tr>
-        <td>#</td><td><a href="https://leetcode.com/problems/two-sum/"> Two Sum</a></td> <td>V</td>  <td>0314</td>
+        <td>#1</td><td><a href="https://leetcode.com/problems/two-sum/"> Two Sum</a></td> <td>V</td>  <td>0314</td>
     </tr>
     <tr>
-        <td>#</td><td><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">Best Time to Buy and Sell Stock</a></td><td></td>  <td></td>
+        <td>#121</td><td><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">Best Time to Buy and Sell Stock</a></td><td></td>  <td></td>
     </tr>
     <tr>
-        <td>#</td><td> <a href = "https://leetcode.com/problems/contains-duplicate/">Contains Duplicate</a></td><td></td>  <td></td>
+        <td>#217</td><td> <a href = "https://leetcode.com/problems/contains-duplicate/">Contains Duplicate</a></td><td></td>  <td></td>
     </tr>
     <tr>
         <td>#</td><td>Product of Array Except Self</td><td></td>  <td></td>
@@ -34,27 +42,27 @@
 </table>
 <table>
     <tr>
-       <td width = 25>#</td><td width=300>Binary</td> <td>Done</td>  <td>Date</td>
+       <td width = 40>#</td><td width=300>Binary</td> <td>Done</td>  <td>Date</td>
     </tr>
     <tr>
-        <td>#</td><td><a href ="https://leetcode.com/problems/sum-of-two-integers/">Sum of Two Integers</a></td> <td>V</td>  <td>0315</td>
+        <td>#371</td><td><a href ="https://leetcode.com/problems/sum-of-two-integers/">Sum of Two Integers</a></td> <td>V</td>  <td>0315</td>
     </tr>
     <tr>
-        <td>#</td><td><a href = "https://leetcode.com/problems/number-of-1-bits/">Number of 1 Bits</td> <td>V</td>  <td>0315</td>
+        <td>#191</td><td><a href = "https://leetcode.com/problems/number-of-1-bits/">Number of 1 Bits</td> <td>V</td>  <td>0315</td>
     </tr>
     <tr>
-        <td>#</td><td><a href = "https://leetcode.com/problems/counting-bits/">Counting Bits</td> <td>V</td>  <td>0315</td>
+        <td>#338</td><td><a href = "https://leetcode.com/problems/counting-bits/">Counting Bits</td> <td>V</td>  <td>0315</td>
     </tr>
     <tr>
-        <td>#</td><td><a href = "https://leetcode.com/problems/missing-number/">Missing Number</td> <td>V</td>  <td>0315</td>
+        <td>#268</td><td><a href = "https://leetcode.com/problems/missing-number/">Missing Number</td> <td>V</td>  <td>0315</td>
     </tr>
     <tr>
-        <td>#</td><td><a href = "https://leetcode.com/problems/reverse-bits/">Reverse Bits</td> <td>V</td>  <td>0315</td>
+        <td>#190</td><td><a href = "https://leetcode.com/problems/reverse-bits/">Reverse Bits</td> <td>V</td>  <td>0315</td>
     </tr>
 </table>
 <table>
     <tr>
-       <td width = 25>#</td><td width=300>Dynamic Programming</td> <td>Done</td>  <td>Date</td>
+       <td width = 40>#</td><td width=300>Dynamic Programming</td> <td>Done</td>  <td>Date</td>
     </tr>
     <tr>
         <td>#</td><td>Climbing Stairs</td> <td></td>  <td></td>
@@ -92,7 +100,7 @@
 </table>
 <table>
     <tr>
-        <td width = 25>#</td><td width=300>Graph</td> <td>Done</td>  <td>Date</td>
+        <td width = 40>#</td><td width=300>Graph</td> <td>Done</td>  <td>Date</td>
     </tr>
     <tr>
         <td>#</td><td>Clone Graph</td> <td></td>  <td></td>
@@ -112,7 +120,7 @@
 </table>
 <table>
     <tr>
-        <td width = 25>#</td><td width=300>Interval</td> <td>Done</td>  <td>Date</td>
+        <td width = 40>#</td><td width=300>Interval</td> <td>Done</td>  <td>Date</td>
     </tr>
     <tr>
         <td>#</td><td>Insert Interval</td> <td></td>  <td></td>
@@ -126,7 +134,7 @@
 </table>
 <table>
     <tr>
-        <td width = 25>#</td><td width=300>Linked List</td> <td>Done</td>  <td>Date</td>
+        <td width = 40>#</td><td width=300>Linked List</td> <td>Done</td>  <td>Date</td>
     </tr>
     <tr>
         <td>#</td><td>Reverse a Linked List</td> <td></td>  <td></td>
@@ -149,7 +157,7 @@
 </table>
 <table>
     <tr>
-        <td width = 25>#</td><td width=300>Matrix</td> <td>Done</td>  <td>Date</td>
+        <td width = 40>#</td><td width=300>Matrix</td> <td>Done</td>  <td>Date</td>
     </tr>
     <tr>
         <td>#</td><td>Set Matrix Zeroes</td> <td></td>  <td></td>
@@ -166,7 +174,7 @@
 </table>
 <table>
     <tr>
-        <td width = 25>#</td><td width=300>String</td> <td>Done</td>  <td>Date</td>
+        <td width = 40>#</td><td width=300>String</td> <td>Done</td>  <td>Date</td>
     </tr>
     <tr>
         <td>#</td><td>Longest Substring Without Repeating Characters</td> <td></td>  <td></td>
@@ -190,15 +198,15 @@
         <td>#</td><td>Valid Palindrome</td> <td></td>  <td></td>
     </tr>
     <tr>
-        <td>#</td><td><a href=""https://leetcode.com/problems/palindromic-substrings/>Longest Palindromic Substring</a></td> <td>V</td>  <td>0310</td>
+        <td>#5</td><td><a href=""https://leetcode.com/problems/palindromic-substrings/>Longest Palindromic Substring</a></td> <td>V</td>  <td>0310</td>
     </tr>
     <tr>
-        <td>#</td><td>Palindromic Substrings</td> <td></td>  <td></td>
+        <td>#647</td><td>Palindromic Substrings</td> <td></td>  <td></td>
     </tr>
 </table>
 <table>
     <tr>
-        <td width = 25>#</td><td width=300>Tree</td> <td>Done</td>  <td>Date</td>
+        <td width = 40>#</td><td width=300>Tree</td> <td>Done</td>  <td>Date</td>
     </tr>
     <tr>
         <td>#</td><td>Maximum Depth of Binary Tree</td> <td></td>  <td></td>
@@ -245,7 +253,7 @@
 </table>
 <table>
     <tr>
-        <td width = 25>#</td><td width=300>Heap</td> <td>Done</td>  <td>Date</td>
+        <td width = 40>#</td><td width=300>Heap</td> <td>Done</td>  <td>Date</td>
     </tr>
     <tr>
         <td>#</td><td>Merge K Sorted Lists</td> <td></td>  <td></td>
