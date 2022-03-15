@@ -5,7 +5,7 @@
         <td>Array</td> <td>Done</td> <td>Date</td>
     </tr>
     <tr>
-        <td>Two Sum</td> <td>V</td>  <td>0314</td>
+        <td url="https://leetcode.com/problems/two-sum/">Two Sum</td> <td>V</td>  <td>0314</td>
     </tr>
     <tr>
         <td>Best Time to Buy and Sell Stock</td><td></td>  <td></td>
