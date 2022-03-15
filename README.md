@@ -3,7 +3,7 @@
 
 This is my practice for leetcode in python. <br/>
 And the markdown practice for recording when I finish the questions. <br/>
-Branches are separating the problems from <a href="https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions">Blind 75</a> and others that I pracice by myself.<br/>
+Folders are problems from <a href="https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions">Blind 75</a> and others that I pracice by myself.<br/>
 <br>
 
 ---
