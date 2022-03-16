@@ -22,7 +22,7 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td>#217</td><td> <a href = "https://leetcode.com/problems/contains-duplicate/">Contains Duplicate</a></td><td></td>  <td></td>
     </tr>
     <tr>
-        <td>#</td><td>Product of Array Except Self</td><td></td>  <td></td>
+        <td>#238</td><td><a href="https://leetcode.com/problems/product-of-array-except-self/">Product of Array Except Self</a></td><td></td>  <td></td>
     </tr>
     <tr>
         <td>#</td><td>Maximum Subarray </td><td></td>  <td></td>
@@ -51,7 +51,7 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td>#191</td><td><a href = "https://leetcode.com/problems/number-of-1-bits/">Number of 1 Bits</td> <td>V</td>  <td>0315</td>
     </tr>
     <tr>
-        <td>#338</td><td><a href = "https://leetcode.com/problems/counting-bits/">Counting Bits</td> <td>V</td>  <td>0315</td>
+        <td>#338</td><td><a href = "https://leetcode.com/problems/counting-bits/">Counting Bits</td> <td>V</td>  <td>0316</td>
     </tr>
     <tr>
         <td>#268</td><td><a href = "https://leetcode.com/problems/missing-number/">Missing Number</td> <td>V</td>  <td>0315</td>
