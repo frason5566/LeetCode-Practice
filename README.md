@@ -22,22 +22,25 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td>#217</td><td> <a href = "https://leetcode.com/problems/contains-duplicate/">Contains Duplicate</a></td><td></td>  <td></td>
     </tr>
     <tr>
-        <td>#238</td><td><a href="https://leetcode.com/problems/product-of-array-except-self/">Product of Array Except Self</a></td><td></td>  <td></td>
+        <td>#238</td><td><a href="https://leetcode.com/problems/product-of-array-except-self/">Product of Array Except Self</a></td><td>V</td>  <td>0317</td>
     </tr>
     <tr>
-        <td>#</td><td>Maximum Subarray </td><td></td>  <td></td>
+        <td>#53</td><td><a href="https://leetcode.com/problems/maximum-subarray/">Maximum Subarray</a> </td><td></td>  <td></td>
     </tr>
     <tr>
-        <td>#</td><td>Maximum Product Subarray</td><td></td>  <td></td>
+        <td>#152</td><td><a href="https://leetcode.com/problems/maximum-product-subarray/">Maximum Product Subarray</a></td><td></td>  <td></td>
     </tr>
     <tr>
-        <td>#</td><td>Find Minimum in Rotated Sorted Array</td><td></td>  <td></td>
+        <td>#153</td><td><a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/">Find Minimum in Rotated Sorted Array</a></td><td>V</td>  <td>0317</td>
     </tr>
     <tr>
-        <td>#</td><td>Search in Rotated Sorted Array</td><td></td>  <td></td>
+        <td>#33</td><td><a href="https://leetcode.com/problems/search-in-rotated-sorted-array/">Search in Rotated Sorted Array</a></td><td></td>  <td></td>
     </tr>
     <tr>
-        <td>#</td><td>Container With Most Water</td><td></td>  <td></td>
+        <td>#15</td><td><a href="https://leetcode.com/problems/3sum/">Three Sum</a></td><td>V</td><td>0315</td>
+    </tr>
+    <tr>
+        <td>#11</td><td><a href="https://leetcode.com/problems/container-with-most-water/">Container With Most Water</a></td><td>V</td>  <td>0311</td>
     </tr>
 </table>
 <table>
