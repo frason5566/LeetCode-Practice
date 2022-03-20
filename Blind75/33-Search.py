@@ -26,41 +26,51 @@ def SS(nums,target):
     while l<r:
         m = (l+r)//2
         print("m=",m,",nums[m]=",nums[m])
-        if nums[m] == target or nums[r]==target:
-            res = m if nums[m] == target else r
+        if nums[m] == target:
+            res = m
             l=r
-        elif nums[m] < target and target < nums[r]:
-            l = m + 1
+        elif nums[l] == target:
+            res = l
+            l=r
+        elif nums[r] == target:
+            res = r
+            l=r
         elif nums[m] < target:
-            r = m
-        elif nums[m] > target and target < nums[l]:
-            l = m+1
-        else:    
-            r = m
-        
+            if nums[r] > target or nums[r] < nums[m]:
+                l = m + 1
+            elif nums[r] == target:
+                res = r
+                break
+            else:
+                r = m - 1
+        elif nums[m] > target:
+            if nums[l] < target or nums[l] > nums[m]:
+                r = m - 1
+            elif nums[l] == target:
+                res = l
+                break
+            else:
+                l = m + 1
     return res
 
 
 def main():
-    # N=[4,5,6,7,0,1,2]
-    # print(SS(N,0))
-    # N=[4,5,6,7,0,1,2]
-    # print(SS(N,3))
-    N=[1,3]
-    print(SS(N,3))
-    N=[1,3]
+    # N=[0,1,2,3,4,5]
+    # print(SS(N,4))
+    # N=[5,0,1,2,3,4]
+    # print(SS(N,4))
+    # N=[4,5,0,1,2,3]
+    # print(SS(N,4))
+    # N=[3,4,5,0,1,2]
+    # print(SS(N,4))
+    # N=[2,3,4,5,0,1]
+    # print(SS(N,4))
+    # N=[1,2,3,4,5,0]
+    # print(SS(N,4))
+    
+    N=[3,1]
     print(SS(N,1))
-    # N=[1]
-    # print(SS(N,0))
-    # N=[0,1,2,3,4]
-    # print(S(N,2))
-    # N=[4,0,1,2,3]
-    # print(S(N,2))
-    # N=[3,4,0,1,2]
-    # print(S(N,2))
-    # N=[2,3,4,0,1]
-    # print(S(N,0))
-    # N=[1,2,3,4,0]
-    # print(S(N,2))
+    N=[3,1]
+    print(SS(N,3))
 
 main()

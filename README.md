@@ -34,7 +34,7 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td>#153</td><td><a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/">Find Minimum in Rotated Sorted Array</a></td><td>V</td>  <td>0317</td>
     </tr>
     <tr>
-        <td>#33</td><td><a href="https://leetcode.com/problems/search-in-rotated-sorted-array/">Search in Rotated Sorted Array</a></td><td></td>  <td></td>
+        <td>#33</td><td><a href="https://leetcode.com/problems/search-in-rotated-sorted-array/">Search in Rotated Sorted Array</a></td><td>V</td>  <td>0320</td>
     </tr>
     <tr>
         <td>#15</td><td><a href="https://leetcode.com/problems/3sum/">Three Sum</a></td><td>V</td><td>0315</td>
