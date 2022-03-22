@@ -3,8 +3,7 @@ class ListNode(object):
         self.val = val
         self.next = next
 
-def addTwoNumbersL(l1, l2):
-    # List Solution
+def addTwoNumbersL(l1, l2): # List Solution
     temp = 0
     List = []
     flag = 1
@@ -32,7 +31,7 @@ def addTwoNumbersL(l1, l2):
             i += 1
     return List
 
-def addTwoNumbers(self, l1, l2):
+def addTwoNumbers(l1,l2):
     """
     :type l1: ListNode
     :type l2: ListNode
@@ -59,7 +58,7 @@ def addTwoNumbers(self, l1, l2):
             V1 = l1.val if l1 else 0
             V2 = l2.val if l2 else 0
             s = V1 + V2 + carry 
-            carry = s / 10
+            carry = s // 10
             digit = s % 10
             result.next = ListNode(digit)
             result = result.next
@@ -72,19 +71,15 @@ def addTwoNumbers(self, l1, l2):
 
 
 def main():
-    l1 = ListNode() #[9,4,5,6]
-    l2 = ListNode() #[2,3,4,7]
-    l1.next = 9
+    
+    l1 = ListNode(0)
+    l1.val = 9
+    l1.next = ListNode()
     l1.next = 4
-    l1.next = 5
-    l1.next = 6
-    l2.next = 2
-    l2.next = 3
-    l2.next = 4
-    l2.next = 7
-    print("6549 + 7432 = ", end='')
-    # print(addTwoNumbers( l1, l2))
-    print(addTwoNumbers(l1,l2))
+    l2 = ListNode(0)
+    l2 = [2,1,3,5]
+    print(l1.val)
+    print(l1.next)
 
 
 main()
