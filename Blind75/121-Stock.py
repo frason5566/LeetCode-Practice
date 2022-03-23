@@ -11,11 +11,14 @@ def S (prices):
 
 def SS(prices):
     if len(prices) == 1 : return 0
-    a=prices.copy()
-    a.sort()
-    l = 0
-    r = len(a)-1
-    while l < r:
+    low = prices[0]
+    prf=0
+    for i in range (1,len(prices)):
+        if low>prices[i]:
+            low = prices[i]
+        if prices[i] - low > prf:
+            prf = prices[i] - low 
+    return prf
         
 
 

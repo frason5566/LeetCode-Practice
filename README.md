@@ -16,19 +16,19 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td>#1</td><td><a href="https://leetcode.com/problems/two-sum/"> Two Sum</a></td> <td>V</td>  <td>0314</td>
     </tr>
     <tr>
-        <td>#121</td><td><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">Best Time to Buy and Sell Stock</a></td><td></td>  <td></td>
+        <td>#121</td><td><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">Best Time to Buy and Sell Stock</a></td><td>V</td>  <td>0323</td>
     </tr>
     <tr>
-        <td>#217</td><td> <a href = "https://leetcode.com/problems/contains-duplicate/">Contains Duplicate</a></td><td></td>  <td></td>
+        <td>#217</td><td> <a href = "https://leetcode.com/problems/contains-duplicate/">Contains Duplicate</a></td><td>V</td>  <td>0323</td>
     </tr>
     <tr>
         <td>#238</td><td><a href="https://leetcode.com/problems/product-of-array-except-self/">Product of Array Except Self</a></td><td>V</td>  <td>0317</td>
     </tr>
     <tr>
-        <td>#53</td><td><a href="https://leetcode.com/problems/maximum-subarray/">Maximum Subarray</a> </td><td></td>  <td></td>
+        <td>#53</td><td><a href="https://leetcode.com/problems/maximum-subarray/">Maximum Subarray</a> </td><td>V</td>  <td>0323</td>
     </tr>
     <tr>
-        <td>#152</td><td><a href="https://leetcode.com/problems/maximum-product-subarray/">Maximum Product Subarray</a></td><td></td>  <td></td>
+        <td>#152</td><td><a href="https://leetcode.com/problems/maximum-product-subarray/">Maximum Product Subarray</a></td><td>V</td>  <td>0323</td>
     </tr>
     <tr>
         <td>#153</td><td><a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/">Find Minimum in Rotated Sorted Array</a></td><td>V</td>  <td>0317</td>
