@@ -68,13 +68,13 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
        <td width = 40>#</td><td width=300>Dynamic Programming</td> <td>Done</td>  <td>Date</td>
     </tr>
     <tr>
-        <td>#</td><td>Climbing Stairs</td> <td></td>  <td></td>
+        <td>#70</td><td><a href = "https://leetcode.com/problems/climbing-stairs/">Climbing Stairs </a></td> <td>V</td>  <td>0406</td>
     </tr>
     <tr>
-        <td>#</td><td>Coin Change</td> <td></td>  <td></td>
+        <td>#322</td><td><a href = "https://leetcode.com/problems/coin-change/">Coin Change</a></td> <td>V</td>  <td>0406</td>
     </tr>
     <tr>
-        <td>#</td><td>Longest Increasing Subsequence</td> <td></td>  <td></td>
+        <td>#300</td><td><a href = "https://leetcode.com/problems/longest-increasing-subsequence/">Longest Increasing Subsequence</a></td> <td></td>  <td></td>
     </tr>
     <tr>
         <td>#</td><td>Longest Common Subsequence</td> <td></td>  <td></td>
