@@ -140,7 +140,7 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td width = 40>#</td><td width=300>Linked List</td> <td>Done</td>  <td>Date</td>
     </tr>
     <tr>
-        <td>#</td><td>Reverse a Linked List</td> <td></td>  <td></td>
+        <td>#206</td><td><a href="https://leetcode.com/problems/reverse-linked-list/">Reverse a Linked List</a></td> <td>V</td>  <td>0409</td>
     </tr>
     <tr>
         <td>#</td><td>Detect Cycle in a Linked List</td> <td></td>  <td></td>
