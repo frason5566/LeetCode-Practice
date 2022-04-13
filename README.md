@@ -146,7 +146,7 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td>#</td><td>Detect Cycle in a Linked List</td> <td></td>  <td></td>
     </tr>
     <tr>
-        <td>#</td><td>Merge Two Sorted Lists</td> <td></td>  <td></td>
+        <td>#21</td><td><a href="https://leetcode.com/problems/merge-two-sorted-lists/">Merge Two Sorted Lists</a></td> <td>V</td>  <td>0413</td>
     </tr>
     <tr>
         <td>#</td><td>Merge K Sorted Lists</td> <td></td>  <td></td>
