@@ -143,7 +143,7 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td>#206</td><td><a href="https://leetcode.com/problems/reverse-linked-list/">Reverse a Linked List</a></td> <td>V</td>  <td>0409</td>
     </tr>
     <tr>
-        <td>#</td><td>Detect Cycle in a Linked List</td> <td></td>  <td></td>
+        <td>#141</td><td><a href="https://leetcode.com/problems/linked-list-cycle/">Detect Cycle in a Linked List</a></td> <td>V</td>  <td>0414</td>
     </tr>
     <tr>
         <td>#21</td><td><a href="https://leetcode.com/problems/merge-two-sorted-lists/">Merge Two Sorted Lists</a></td> <td>V</td>  <td>0413</td>
