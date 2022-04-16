@@ -15,17 +15,19 @@ def M(lists):
         Flag=False
         ptr=ListNode()
         ptr.next=None
-        minN=0
+        minN=float("inf")
         minI=0
         for i in range(len(C)):
             if C[i] == None:
                 continue
             elif C[i].val<=minN:
-                print("i=", i , "Val=",C[i].val)
+                print("i =", i , "Val =",C[i].val)
                 ptr.val=C[i].val
                 minI=i
         T.next = ptr
+        print(type(C[minI]),"  ",minI)
         C[minI] = C[minI].next
+        print("Next, C[minI].next = ",C[minI])
         T = T.next
         for i in range(len(C)):
             if C[i]!=None:
@@ -65,16 +67,16 @@ def main():
     N_Dis(L1)
     L1=L1.next
     L2=ListNode()
-    N_ins(L2,1)
-    N_ins(L2,3)
-    N_ins(L2,6)
+    N_ins(L2,5)
+    N_ins(L2,8)
+    N_ins(L2,9)
     print("L2 = ",end='')
     N_Dis(L2)
     L2=L2.next
     L3=ListNode()
-    N_ins(L3,1)
     N_ins(L3,3)
     N_ins(L3,6)
+    N_ins(L3,7)
     print("L3 = ",end='')
     N_Dis(L3)
     L3=L3.next
