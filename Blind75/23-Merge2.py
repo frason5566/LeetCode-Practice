@@ -8,9 +8,7 @@ def M(lists):
     ll=len(lists)
     if ll == 0: return res
     elif ll == 1: return lists[0]
-    
-    
-    C=[ListNode()]*ll
+    C=[None]*ll
     ch = 0
     for i in range (ll):
         if lists[i]!=None:
@@ -32,6 +30,11 @@ def M(lists):
                 minN = C[i].val
                 ptr.val=C[i].val
                 minI=i
+            elif C[i].val < C[i-1].val:
+                pt=ListNode()
+                pt=C[i]
+                C[i]=C[i-1]
+                C[i-1]=pt
         T.next = ptr
         C[minI] = C[minI].next
         T = T.next
@@ -39,6 +42,25 @@ def M(lists):
             if C[i]!=None:
                 Flag = True
     return res
+
+def MM (lists):
+    res = head = ListNode()
+    ll=len(lists)
+    a=[]
+    if ll == 0: return res
+    elif ll == 1: return lists[0]
+    for L in lists:
+        while L != None:
+            a.append(L.val)
+            L=L.next
+    a.sort()
+    for N in a:
+        ptr=ListNode()
+        ptr.val=N
+        res.next=ptr
+        res = res.next
+    return head
+
 
 def N_ins(H,v):
     ptr = ListNode()
@@ -66,28 +88,28 @@ def N_Dis(H):
 
 def main():
     L1=ListNode()
-    # N_ins(L1,1)
-    # N_ins(L1,2)
-    # N_ins(L1,8)
-    # print("L1 = ",end='')
-    # N_Dis(L1)
+    N_ins(L1,1)
+    N_ins(L1,2)
+    N_ins(L1,8)
+    print("L1 = ",end='')
+    N_Dis(L1)
     L1=L1.next
     L2=ListNode()
-    # N_ins(L2,4)
-    # N_ins(L2,5)
-    # N_ins(L2,9)
-    # print("L2 = ",end='')
-    # N_Dis(L2)
+    N_ins(L2,4)
+    N_ins(L2,5)
+    N_ins(L2,9)
+    print("L2 = ",end='')
+    N_Dis(L2)
     L2=L2.next
     L3=ListNode()
-    # N_ins(L3,3)
-    # N_ins(L3,6)
-    # N_ins(L3,7)
-    # print("L3 = ",end='')
-    # N_Dis(L3)
+    N_ins(L3,3)
+    N_ins(L3,6)
+    N_ins(L3,7)
+    print("L3 = ",end='')
+    N_Dis(L3)
     L3=L3.next
     A=[L1,L3,L2]
-    N_Dis(M(A))
+    N_Dis(MM(A))
 
 
 main()
