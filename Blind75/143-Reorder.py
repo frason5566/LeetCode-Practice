@@ -31,8 +31,7 @@ def R(head): # List
             T.next = ptr
         l+=1
         r-=1
-    head = res
-    return head
+    head.next=res.next.next
 
 def RR(head): # ListNode
     c1=head
@@ -47,9 +46,6 @@ def RR(head): # ListNode
         p2.next=None
         ptr.val=c2.val
         
-
-
-    
 
 def N_ins(H,v):
     ptr = ListNode()
@@ -83,7 +79,7 @@ def main():
     N_ins(L1,4)
     N_ins(L1,5)
     # N_Dis(RR(L1))
-    RR(L1)
+    R(L1.next)
     # R(L1)
     N_Dis(L1)
 

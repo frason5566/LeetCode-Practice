@@ -152,10 +152,10 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td>#23</td><td><a href="https://leetcode.com/problems/merge-k-sorted-lists/">Merge K Sorted Lists</td> <td>V</td>  <td>0416</td>
     </tr>
     <tr>
-        <td>#</td><td>Remove Nth Node From End Of List</td> <td></td>  <td></td>
+        <td>#19</td><td><a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/">Remove Nth Node From End Of List</a></td> <td>V</td>  <td>0418</td>
     </tr>
     <tr>
-        <td>#</td><td>Reorder List</td> <td></td>  <td></td>
+        <td>#143</td><td><a href="https://leetcode.com/problems/reorder-list/">Reorder List</a></td> <td>V</td>  <td>0418</td>
     </tr>
 </table>
 <table>
