@@ -227,7 +227,7 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td>#102</td><td><a href = "https://leetcode.com/problems/binary-tree-level-order-traversal/">Binary Tree Level Order Traversal</a></td> <td>V</td>  <td>0419</td>
     </tr>
     <tr>
-        <td>#297</td><td><a href = "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/">Serialize and Deserialize Binary Tree</a></td> <td></td>  <td></td>
+        <td>#297</td><td><a href = "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/">Serialize and Deserialize Binary Tree</a></td> <td>V</td>  <td>0420</td>
     </tr>
     <tr>
         <td>#</td><td>Subtree of Another Tree</td> <td></td>  <td></td>

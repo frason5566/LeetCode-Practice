@@ -24,15 +24,24 @@ def serialize(root):
     return ",".join(a)
     
 
-def deserialize(data):
+def deserialize(self, data):
     """Decodes your encoded data to tree.
     
     :type data: str
     :rtype: TreeNode
     """
     a = data.split(",")
-    
-    ptr = TreeNode()
+    self.i=0
+    def dfs():
+        if a[self.i] == "N":
+            self.i += 1
+            return None
+        node = TreeNode(int(a[self.i]))
+        self.i += 1
+        node.left = dfs()
+        node.right = dfs()
+        return node
+    return dfs()
 
 
 def T_ins(R,D,v):
