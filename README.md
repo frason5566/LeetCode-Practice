@@ -230,7 +230,7 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td>#297</td><td><a href = "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/">Serialize and Deserialize Binary Tree</a></td> <td>V</td>  <td>0420</td>
     </tr>
     <tr>
-        <td>#</td><td>Subtree of Another Tree</td> <td></td>  <td></td>
+        <td>#572</td><td><a href="https://leetcode.com/problems/subtree-of-another-tree/">Subtree of Another Tree</a></td> <td>V</td>  <td>0421</td>
     </tr>
     <tr>
         <td>#</td><td width = 300 >Construct Binary Tree from Preorder and Inorder Traversal</td> <td></td>  <td></td>
