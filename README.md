@@ -236,7 +236,7 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td>#105</td><td width = 300 ><a href = "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/">Construct Binary Tree from Preorder and Inorder Traversal</a></td> <td>V</td>  <td>0425</td>
     </tr>
     <tr>
-        <td>#</td><td>Validate Binary Search Tree</td> <td></td>  <td></td>
+        <td>#98</td><td><a href = "https://leetcode.com/problems/validate-binary-search-tree/">Validate Binary Search Tree</a></td> <td></td>  <td></td>
     </tr>
     <tr>
         <td>#230</td><td><a href="https://leetcode.com/problems/kth-smallest-element-in-a-bst/">Kth Smallest Element in a BST</a></td> <td>V</td>  <td>0425</td>
