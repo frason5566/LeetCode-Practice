@@ -233,13 +233,13 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td>#572</td><td><a href="https://leetcode.com/problems/subtree-of-another-tree/">Subtree of Another Tree</a></td> <td>V</td>  <td>0421</td>
     </tr>
     <tr>
-        <td>#</td><td width = 300 >Construct Binary Tree from Preorder and Inorder Traversal</td> <td></td>  <td></td>
+        <td>#105</td><td width = 300 ><a href = "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/">Construct Binary Tree from Preorder and Inorder Traversal</a></td> <td>V</td>  <td>0425</td>
     </tr>
     <tr>
         <td>#</td><td>Validate Binary Search Tree</td> <td></td>  <td></td>
     </tr>
     <tr>
-        <td>#</td><td>Kth Smallest Element in a BST</td> <td></td>  <td></td>
+        <td>#230</td><td><a href="https://leetcode.com/problems/kth-smallest-element-in-a-bst/">Kth Smallest Element in a BST</a></td> <td>V</td>  <td>0425</td>
     </tr>
     <tr>
         <td>#</td><td>Lowest Common Ancestor of BST</td> <td></td>  <td></td>
