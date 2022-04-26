@@ -242,10 +242,10 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td>#230</td><td><a href="https://leetcode.com/problems/kth-smallest-element-in-a-bst/">Kth Smallest Element in a BST</a></td> <td>V</td>  <td>0425</td>
     </tr>
     <tr>
-        <td>#235</td><td><a href = "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/">Lowest Common Ancestor of BST</a></td> <td></td>  <td></td>
+        <td>#235</td><td><a href = "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/">Lowest Common Ancestor of BST</a></td> <td>V</td>  <td>0426</td>
     </tr>
     <tr>
-        <td>#208</td><td><a href = "https://leetcode.com/problems/implement-trie-prefix-tree/">Implement Trie (Prefix Tree)</a></td> <td></td>  <td></td>
+        <td>#208</td><td><a href = "https://leetcode.com/problems/implement-trie-prefix-tree/">Implement Trie (Prefix Tree)</a></td> <td>V</td>  <td>0426</td>
     </tr>
     <tr>
         <td>#211</td><td><a href = "https://leetcode.com/problems/design-add-and-search-words-data-structure/">Add and Search Word</a></td> <td></td>  <td></td>
