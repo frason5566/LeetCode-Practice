@@ -242,16 +242,16 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td>#230</td><td><a href="https://leetcode.com/problems/kth-smallest-element-in-a-bst/">Kth Smallest Element in a BST</a></td> <td>V</td>  <td>0425</td>
     </tr>
     <tr>
-        <td>#</td><td>Lowest Common Ancestor of BST</td> <td></td>  <td></td>
+        <td>#235</td><td><a href = "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/">Lowest Common Ancestor of BST</a></td> <td></td>  <td></td>
     </tr>
     <tr>
-        <td>#</td><td>Implement Trie (Prefix Tree)</td> <td></td>  <td></td>
+        <td>#208</td><td><a href = "https://leetcode.com/problems/implement-trie-prefix-tree/">Implement Trie (Prefix Tree)</a></td> <td></td>  <td></td>
     </tr>
     <tr>
-        <td>#</td><td>Add and Search Word</td> <td></td>  <td></td>
+        <td>#211</td><td><a href = "https://leetcode.com/problems/design-add-and-search-words-data-structure/">Add and Search Word</a></td> <td></td>  <td></td>
     </tr>
     <tr>
-        <td>#</td><td>Word Search II</td> <td></td>  <td></td>
+        <td>#212</td><td><a href = "https://leetcode.com/problems/word-search-ii/">Word Search II</a></td> <td></td>  <td></td>
     </tr>
 </table>
 <table>
