@@ -248,7 +248,7 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td>#208</td><td><a href = "https://leetcode.com/problems/implement-trie-prefix-tree/">Implement Trie (Prefix Tree)</a></td> <td>V</td>  <td>0426</td>
     </tr>
     <tr>
-        <td>#211</td><td><a href = "https://leetcode.com/problems/design-add-and-search-words-data-structure/">Add and Search Word</a></td> <td></td>  <td></td>
+        <td>#211</td><td><a href = "https://leetcode.com/problems/design-add-and-search-words-data-structure/">Add and Search Word</a></td> <td>V</td>  <td>0427</td>
     </tr>
     <tr>
         <td>#212</td><td><a href = "https://leetcode.com/problems/word-search-ii/">Word Search II</a></td> <td></td>  <td></td>
@@ -259,13 +259,13 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td width = 40>#</td><td width=300>Heap</td> <td>Done</td>  <td>Date</td>
     </tr>
     <tr>
-        <td>#</td><td>Merge K Sorted Lists</td> <td></td>  <td></td>
+        <td>#23</td><td>Merge K Sorted Lists</td> <td>V</td>  <td>0416</td>
     </tr>
     <tr>
-        <td>#</td><td>Top K Frequent Elements</td> <td></td>  <td></td>
+        <td>#347</td><td><a href = "https://leetcode.com/problems/top-k-frequent-elements/">Top K Frequent Elements</a></td> <td></td>  <td></td>
     </tr>
     <tr>
-        <td>#</td><td>Find Median from Data Stream</td> <td></td>  <td></td>
+        <td>#295</td><td><a href = "https://leetcode.com/problems/find-median-from-data-stream/">Find Median from Data Stream</a></td> <td></td>  <td></td>
     </tr>
 </table>
 
