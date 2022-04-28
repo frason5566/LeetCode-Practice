@@ -1,10 +1,11 @@
+import heapq
 class MedianFinder: # Slow
-    def __init__(self):
+    def __init__IT(self):
         self.A = []
         self.m = 0
         self.t = 0
 
-    def addNum(self, num: int) -> None:
+    def addNumIt(self, num: int) -> None:
         if len(self.A) == 0:
             self.A.append(num)
         else:
@@ -32,11 +33,32 @@ class MedianFinder: # Slow
         self.t = 1 if self.t == 0 else 0
         print(self.A)
 
-    def findMedian(self) -> float:
+    def findMedianIt(self) -> float:
         if self.t == 0:
             return (self.A[self.m-1]+self.A[self.m])/2
         else:
             return self.A[self.m]
+
+    def __init__(self):
+        self.min_heap = []  # store larger half
+        self.max_heap = []  # store smaller half
+        heapq.heapify(self.min_heap)
+        heapq.heapify(self.max_heap)
+
+    def addNum(self, num: int) -> None:
+        heapq.heappush(self.max_heap, -num)
+        heapq.heappush(self.min_heap, - heapq.heappop(self.max_heap))
+        if len(self.max_heap)<len(self.min_heap):
+            heapq.heappush(self.max_heap, - heapq.heappop(self.min_heap))
+        print(self.max_heap)
+        print(self.min_heap)
+        
+    def findMedian(self) -> float:
+        if (len(self.min_heap) + len(self.max_heap)) % 2 == 0:
+            return 0.5 * (-self.max_heap[0] + self.min_heap[0])
+        else:
+            return -self.max_heap[0]
+
 
 
 
