@@ -1,3 +1,6 @@
+import heapq
+
+from requests import head
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -61,6 +64,23 @@ def MM (lists):
         res = res.next
     return head
 
+def MMM(lists): # heapq
+    res = head = ListNode()
+    ll=len(lists)
+    a=[]
+    heapq.heapify(a)
+    if ll == 0: return res
+    elif ll == 1: return lists[0]
+    for L in lists:
+        while L != None:
+            heapq.heappush(a,L.val)
+            L=L.next
+    while len(a) != 0:
+        ptr=ListNode()
+        ptr.val=heapq.heappop(a)
+        res.next=ptr
+        res = res.next
+    return head
 
 def N_ins(H,v):
     ptr = ListNode()
