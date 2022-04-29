@@ -15,24 +15,38 @@ def M (intervals):
     
     return res
 
+class ITV:
+    def __init__(self):
+        self.val = 0
+        self.isEnd = False
+
 def MM(intervals):
     if len(intervals)==1:return intervals
-    res = [0] * 10001
+    res = [ITV] * 10001
     ans = []
-    temp = [0] * 2
+    
     for item in intervals:
         for i in range(item[0],item[1]+1):
-            res [i] += 1
+            temp = ITV()
+            res[i] = temp
+            temp.val += 1
+            if i == item[1]:
+                res[i].isEnd = True
     flag = 0
     for i in range(10001):
-        if res[i] == 0 and flag == 0:
+        T = res[i]
+        if T.val == 0 and flag == 0:
             continue
-        elif res[i] == 1 and flag == 0:
+        elif T.val >= 1 and flag == 0:
+            temp = [0] * 2
             temp[0] = i
-            flag =1
-        elif res[i] == 1 and flag == 1:
-            continue
-        elif res[i] == 0 and flag == 1:
+            flag = 1
+        elif T.val >= 1 and flag == 1:
+            if T.isEnd == True:
+                temp[1] = i-1
+                flag = 0
+                ans.append(temp)
+        elif T.val == 0 and flag == 1:
             temp[1] = i-1
             flag = 0
             ans.append(temp)
@@ -45,9 +59,9 @@ def main():
     print(MM(I))
     I = [[1,5],[2,6],[8,20],[23,26]]
     print(MM(I))
-    I = [[1,4],[4,5]]
+    I = [[1,4],[5,6]]
     print(MM(I))
-    I = [[1,6],[4,8],[7,10]]
+    I = [[1,4],[1,4]]
     print(MM(I))
 
 main()
