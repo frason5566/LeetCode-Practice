@@ -163,10 +163,10 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td width = 40>#</td><td width=300>Matrix</td> <td>Done</td>  <td>Date</td>
     </tr>
     <tr>
-        <td>#</td><td>Set Matrix Zeroes</td> <td></td>  <td></td>
+        <td>#73</td><td><a href = "https://leetcode.com/problems/set-matrix-zeroes/">Set Matrix Zeroes</a></td> <td>V</td>  <td>0507</td>
     </tr>
     <tr>
-        <td>#</td><td>Spiral Matrix</td> <td></td>  <td></td>
+        <td>#54</td><td><a href = "https://leetcode.com/problems/spiral-matrix/">Spiral Matrix</a></td> <td>V</td>  <td>0507</td>
     </tr>
     <tr>
         <td>#</td><td>Rotate Image</td> <td></td>  <td></td>
