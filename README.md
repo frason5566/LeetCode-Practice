@@ -169,10 +169,10 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td>#54</td><td><a href = "https://leetcode.com/problems/spiral-matrix/">Spiral Matrix</a></td> <td>V</td>  <td>0507</td>
     </tr>
     <tr>
-        <td>#</td><td>Rotate Image</td> <td></td>  <td></td>
+        <td>#48</td><td><a href = "https://leetcode.com/problems/rotate-image/">Rotate Image</a></td> <td>V</td>  <td>0510</td>
     </tr>
     <tr>
-        <td>#</td><td>Word Search</td> <td></td>  <td></td>
+        <td>#79</td><td><a href = "https://leetcode.com/problems/word-search/">Word Search</a></td> <td>V</td>  <td>0510</td>
     </tr>
 </table>
 <table>
@@ -221,7 +221,7 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td>#226</td><td><a href="https://leetcode.com/problems/invert-binary-tree/">Invert/Flip Binary Tree</a></td> <td>V</td>  <td>0419</td>
     </tr>
     <tr>
-        <td>#124</td><td><a href = "https://leetcode.com/problems/binary-tree-maximum-path-sum/">Binary Tree Maximum Path Sum</a></td> <td></td>  <td></td>
+        <td>#124</td><td><a href = "https://leetcode.com/problems/binary-tree-maximum-path-sum/">Binary Tree Maximum Path Sum</a></td> <td>V</td>  <td>0510</td>
     </tr>
     <tr>
         <td>#102</td><td><a href = "https://leetcode.com/problems/binary-tree-level-order-traversal/">Binary Tree Level Order Traversal</a></td> <td>V</td>  <td>0419</td>
