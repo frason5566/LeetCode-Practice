@@ -74,10 +74,10 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td>#322</td><td><a href = "https://leetcode.com/problems/coin-change/">Coin Change</a></td> <td>V</td>  <td>0406</td>
     </tr>
     <tr>
-        <td>#300</td><td><a href = "https://leetcode.com/problems/longest-increasing-subsequence/">Longest Increasing Subsequence</a></td> <td></td>  <td></td>
+        <td>#300</td><td><a href = "https://leetcode.com/problems/longest-increasing-subsequence/">Longest Increasing Subsequence</a></td> <td>V</td>  <td>0512</td>
     </tr>
     <tr>
-        <td>#</td><td>Longest Common Subsequence</td> <td></td>  <td></td>
+        <td>#1143</td><td><a href = "https://leetcode.com/problems/longest-common-subsequence/">Longest Common Subsequence</a></td> <td></td>  <td></td>
     </tr>
     <tr>
         <td>#</td><td>Word Break Problem</td> <td></td>  <td></td>
