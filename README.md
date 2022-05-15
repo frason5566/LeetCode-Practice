@@ -180,16 +180,16 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td width = 40>#</td><td width=300>String</td> <td>Done</td>  <td>Date</td>
     </tr>
     <tr>
-        <td>#</td><td>Longest Substring Without Repeating Characters</td> <td></td>  <td></td>
+        <td>#3</td><td><a href = "https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/">Longest Substring Without Repeating Characters</a></td> <td>V</td>  <td>0515</td>
     </tr>
     <tr>
-        <td>#</td><td>Longest Repeating Character Replacement</td> <td></td>  <td></td>
+        <td>#424</td><td><a href = "https://leetcode.com/problems/longest-repeating-character-replacement/">Longest Repeating Character Replacement</a></td> <td></td>  <td></td>
     </tr>
     <tr>
-        <td>#</td><td>Minimum Window Substring</td> <td></td>  <td></td>
+        <td>#76</td><td><a href = "https://leetcode.com/problems/minimum-window-substring/">Minimum Window Substring</a></td> <td></td>  <td></td>
     </tr>
     <tr>
-        <td>#</td><td>Valid Anagram</td> <td></td>  <td></td>
+        <td>#242</td><td><a href = "https://leetcode.com/problems/valid-anagram/">Valid Anagram</a></td> <td>V</td>  <td>0515</td>
     </tr>
     <tr>
         <td>#</td><td>Group Anagrams</td> <td></td>  <td></td>
