@@ -49,5 +49,19 @@ def main():
     # R=[1,2,3]
     # G=T+R
     # print(G)
+    P = TreeNode(1)
+    T_ins(P,l,2)
+    T_ins(P,r,3)
+    N = P.left
+    T_ins(N,l,4)
+    T_ins(N,r,5)
+    N = N.left
+    T_ins(N,l,7)
+    N = P.right
+    T_ins(N,r,6)
+    N = N.right
+    T_ins(N,r,8)
+
+    print(T(P))
 
 main()
