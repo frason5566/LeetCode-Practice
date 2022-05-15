@@ -19,7 +19,7 @@ def S(board, words):
     for word in words:
         trie.insert(word)
     def helper(b,y,x,level,word):
-        if 'end' in level: True      
+        if 'end' in level: True
         else:
             if y < 0 or y >= m or x < 0 or x >= n:
                 return False
