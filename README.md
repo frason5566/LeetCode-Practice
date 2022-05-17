@@ -86,7 +86,7 @@ Folders are problems from <a href="https://leetcode.com/discuss/general-discussi
         <td>#377</td><td><a href = "https://leetcode.com/problems/combination-sum-iv/">Combination Sum</a></td> <td>V</td>  <td>0514</td>
     </tr>
     <tr>
-        <td>#198</td><td><a href = "https://leetcode.com/problems/house-robber/">House Robber</a></td> <td></td>  <td></td>
+        <td>#198</td><td><a href = "https://leetcode.com/problems/house-robber/">House Robber</a></td> <td>V</td>  <td>0517</td>
     </tr>
     <tr>
         <td>#</td><td>House Robber II</td> <td></td>  <td></td>
