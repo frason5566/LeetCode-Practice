@@ -1,23 +1,17 @@
 def D(s):
     if s[0]=='0':return 0
-    res = 0
     L = len(s)
-    nums=[]
-    count=[]
-    for i in range(L):
-        nums.append(int(s[i]))
-    for i in range(0,L-1):
-        if nums[i]!=0:
-            res += 1
-            count.append(nums[i])
-            N = nums[i] * 10 + nums[i+1]
-            if N <= 26:
-                res += 1
-                count.append(N)
+    count=[0] * (1+L)
+    count[0]=1
+    count[1]=1
+    for i in range(2,L+1):
+        if 0< int(s[i-1]) <= 9:
+            count[i]+=count[i-1]
+        if 10<= int(s[i-2:i])<=26:
+            count[i]+=count[i-2]
 
-    print(count)
-    if nums[L-1]!=0 : res += 1
-    return res
+
+    return count[L]
 
 def main():
 
@@ -25,7 +19,7 @@ def main():
     print(D(S))
     S = "226"
     print(D(S))
-    S = "06"
+    S = "1406"
     print(D(S))
     S = "111222"
     print(D(S))
