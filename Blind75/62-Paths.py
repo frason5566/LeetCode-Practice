@@ -21,8 +21,8 @@ def main():
     M=7
     N=3
     print(U(M,N))
-    M=6
-    N=1
+    M=3
+    N=3
     print(U(M,N))
 
 
