@@ -6,7 +6,7 @@ def S(matrix):
             if matrix[y-1][x-1] == '1':
                 dp[y][x] = min(dp[y-1][x], dp[y-1][x-1], dp[y][x-1] )+1
                 res = max(res, dp[y][x])
-    print(dp)
+    # print(dp)
     return res ** 2
 
 
