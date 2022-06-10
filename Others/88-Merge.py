@@ -21,8 +21,6 @@ def M(nums1,m,nums2,n):
         else:
             nums1[i] = nums2[b]
             b -= 1
-    
-
 
 def MM(nums1,m,nums2,n):
     nums1[m:] = nums2
