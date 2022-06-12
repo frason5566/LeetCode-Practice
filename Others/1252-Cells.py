@@ -28,4 +28,5 @@ def MM(m,n,indices):
 def main():
     print(MM(2,3,[[0,1],[1,1]]))
     print(MM(2,2,[[0,0],[1,1]]))
+
 main()
