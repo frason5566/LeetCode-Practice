@@ -18,12 +18,16 @@ def MM(m,n,indices):
     for item in indices:
         X[item[1]] = (X[item[1]] + 1) % 2
         Y[item[0]] = (Y[item[0]] + 1) % 2
-    res = 0
+    x, y = 0, 0
+
     for i in range(m):
-        for j in range(n):
-            if X[j] + Y[i] == 1:
-                res += 1
-    return res
+        if Y[i] == 1:
+            y += 1
+
+    for j in range(n):
+        if X[j]  == 1:
+            x += 1
+    return y * n + x * m - 2 * x * y
 
 def main():
     print(MM(2,3,[[0,1],[1,1]]))
