@@ -22,7 +22,7 @@ def A(s,t):
 def main():
     S="anagram"
     T="nagaram"
-    print(A(S,T))
+    print(A(S,T)) 
     S="cat"
     T="rat"
     print(A(S,T))
