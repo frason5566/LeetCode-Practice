@@ -3,7 +3,7 @@ class ListNode:
         self.val = val
         self.next = next
 
-def S(head):
+def S(head): # Time Limit Exceeded
     res = ListNode(float("-INF"))
     prev = head
     c = head.next
@@ -17,7 +17,7 @@ def S(head):
             while cc != None:
                 if ins.val > cc.val:
                     cc = cc.next
-                    prev = prev.next
+                    pr = pr.next
                 else:
                     break
             pr.next = ins
@@ -47,7 +47,22 @@ def S(head):
             cr = cr.next
     return res.next
 
+def SS(head):
+    res = ListNode(float("-INF"))
+    temp = []
+    c = head
+    while c != None:
+        temp.append(c.val)
+        c = c.next
+    temp.sort()
+    print(temp)
+    cc = res
+    for val in temp:
+        cc.next = ListNode(val)
+        cc = cc.next
 
+
+    return res.next
 
 
 def N_ins(H,v):
@@ -77,7 +92,7 @@ def main():
     N_ins(L1,1)
     N_ins(L1,3)
     N_Dis(L1)
-    N_Dis(S(L1))
+    N_Dis(SS(L1))
 
 main()
 
