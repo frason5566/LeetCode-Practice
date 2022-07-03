@@ -16,7 +16,7 @@ def W(nums): # Linear DP
     print(dn)
     return max(up[-1], dn[-1])
 
-def WW(nums):
+def WW(nums): # greedy 
     if len(nums) < 2: return len(nums)
     pd = nums[1] - nums[0]
     cnt = 2 if pd != 0 else 1
@@ -25,9 +25,8 @@ def WW(nums):
         if (d > 0 and pd <=0) or (d < 0 and pd >= 0):
             cnt += 1
             pd = d
-        
-
     return cnt
+    
 def main():
     N = [3,3,3,2,4]
     print(WW(N))
