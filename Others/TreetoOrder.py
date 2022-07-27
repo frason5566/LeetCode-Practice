@@ -7,17 +7,27 @@ class TreeNode:
 l=0
 r=1
 
-def T(root): # preorder
+def I(root): # inorder
     res = []
     if root == None:
         return []
     else:
-        L=T(root.left)
-        R=T(root.right)
+        L=I(root.left)
+        R=I(root.right)
         res.append(root.val)
         res = L+res+R
     return res
 
+def Pre(root):
+    res = []
+    if root == None:
+        return []
+    else:
+        L=Pre(root.left)
+        R=Pre(root.right)
+        res.append(root.val)
+        res = res+L+R
+    return res
 
 def T_ins(R,D,v):
     ptr = TreeNode(v)
@@ -37,6 +47,7 @@ def T_ins(R,D,v):
 #             print()
 
 
+
 def main():
     P=TreeNode(3)
     T_ins(P,l,1)
@@ -44,7 +55,7 @@ def main():
     N=P.left
     T_ins(N,r,2)
 
-    print(T(P))
+    print(I(P))
     # T=[]
     # R=[1,2,3]
     # G=T+R
@@ -62,6 +73,6 @@ def main():
     N = N.right
     T_ins(N,r,8)
 
-    print(T(P))
+    print(Pre(P))
 
 main()
