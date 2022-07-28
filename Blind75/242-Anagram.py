@@ -19,13 +19,24 @@ def A(s,t):
             return False
     return True
 
+def AA(s,t): #not good
+    if len(s)!= len(t): return False
+    sl = []
+    tl = []
+    for i in range(len(s)):
+        sl.append(s[i])
+        tl.append(t[i])
+    sl.sort()
+    tl.sort()
+    return sl == tl
+
 def main():
     S="anagram"
     T="nagaram"
-    print(A(S,T)) 
+    print(AA(S,T)) 
     S="cat"
     T="rat"
-    print(A(S,T))
+    print(AA(S,T))
 
 
 
