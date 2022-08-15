@@ -1,6 +1,7 @@
 def R (s):
     res = 0
     for i in range (len(s)):
+        print(s[i], end=',')
         if s[i] == "M":
             res +=1000
         elif s[i] == "D":
@@ -8,7 +9,7 @@ def R (s):
         elif s[i] == "C":
             if i == len(s)-1:
                 res += 100
-            elif s[i+1] == "D":
+            elif s[i+1] == "D" or s[i+1] == "M":
                 res -=100
             else:
                 res +=100
@@ -30,6 +31,7 @@ def R (s):
                 res -=1
             else:
                 res += 1
+        print(res)
     return res
 
 
